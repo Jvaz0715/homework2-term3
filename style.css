@@ -1,0 +1,109 @@
+* {
+   box-sizing: border-box;
+   
+}
+
+html,
+body {
+   margin: 0 auto;
+   height: 100vh;
+}
+
+body {
+   flex-direction: column;
+   align-items: center;
+   border: 2px solid red;
+   /* width: 100%; */
+}
+
+body,
+header,
+.header-logo-div,
+.header-menu-div,
+.counter-section,
+.counter-section button,
+.stars-container,
+#clear-all {
+   display: flex;
+}
+
+header {
+   background-color: lightsteelblue;
+   width: 100%;
+   color: white;
+}
+
+.header-logo-div,
+.header-menu-div {
+   width: 50%;
+}
+
+.header-logo-div:hover,
+.header-menu-div:hover {
+   color: black;
+}
+
+.header-logo-div h4 {
+   margin-left: 10px;
+}
+
+.header-menu-div {
+   justify-content: end;
+}
+
+.header-menu-div h4 {
+   margin-right: 10px;
+}
+
+
+.counter-section {
+   align-items: center;
+   justify-content: center;
+   margin-top: 10px;
+}
+
+.counter-section button,
+#clear-all {
+   height: 30px;
+   padding: 10px;
+   align-items: center;
+   margin: 20px;
+   color: white;
+   border: none;
+   border-radius: 5px;
+   box-shadow: 1px 1px 1px lightslategray;
+}
+
+#remove-one-star {
+   background-color: lightsalmon;
+}
+
+#add-one-star {
+   background-color: lightseagreen;
+}
+
+#remove-one-star:hover,
+#add-one-star:hover {
+   background-color: lightslategray;
+}
+
+.stars-container {
+   justify-content: center;
+   flex-wrap: wrap;
+   width: 90%;
+   /* border: 3px solid green; */
+}
+
+.stars-container img {
+   width: 40px;
+   height: 40px;
+   border: 1px solid gold;
+   padding: 5px;
+   border-radius: 5px;
+   margin: 1px;;
+}
+
+#clear-all {
+   margin-top: 10px;
+   background-color: rgb(253, 30, 30);
+}
