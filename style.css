@@ -83,7 +83,8 @@ header {
 }
 
 #remove-one-star:hover,
-#add-one-star:hover {
+#add-one-star:hover,
+#clear-all:hover {
    background-color: lightslategray;
 }
 
